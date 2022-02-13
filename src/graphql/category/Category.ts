@@ -5,7 +5,7 @@ class Category {
     @Field() //this field will be a field in graphql
     name: String;
     @Field()
-    descreption: String;
+    description: String;
     @Field()
     _id: String; //will be generate by mongo
 }
